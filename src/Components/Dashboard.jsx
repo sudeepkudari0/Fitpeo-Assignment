@@ -1,4 +1,4 @@
-import React from "react";
+import { React } from "react";
 import {
   Box,
   Heading,
@@ -23,7 +23,7 @@ import {
   MdOutlineAccountBalanceWallet,
   MdOutlineCrisisAlert,
 } from "react-icons/md";
-import { BsFillJournalBookmarkFill } from "react-icons/bs";
+import DashChartComponent from "./DashChartComponent";
 
 const Dashboard = () => {
   return (
@@ -232,6 +232,8 @@ const Dashboard = () => {
             </VStack>
           </HStack>
         </Box>
+        {/* Bar Chart Starts from here */}
+        <DashChartComponent />
       </Box>
     </>
   );
