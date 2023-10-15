@@ -232,9 +232,16 @@ const Dashboard = () => {
             </VStack>
           </HStack>
         </Box>
-        {/* Bar Chart Starts from here */}
         <DashChartComponent />
-        <Products />
+        <Box
+          bgColor={"white"}
+          margin={"40px"}
+          marginLeft={"80px"}
+          padding={"20px"}
+          borderRadius={"10px"}
+        >
+          <Products />
+        </Box>
       </Box>
     </>
   );
