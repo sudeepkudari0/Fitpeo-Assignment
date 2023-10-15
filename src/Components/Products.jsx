@@ -116,7 +116,7 @@ const Products = () => {
                     sm: "70px",
                   }}
                   objectFit="cover"
-                  src="/src/assests/p1.jpeg"
+                  src="/public/assests/p1.jpeg"
                   borderRadius={"10px"}
                   margin={"20px"}
                   marginRight={"2px"}
@@ -156,7 +156,7 @@ const Products = () => {
                     sm: "70px",
                   }}
                   objectFit="cover"
-                  src="/src/assests/p2.jpeg"
+                  src="/public/assests/p2.jpeg"
                   borderRadius={"10px"}
                   margin={"20px"}
                   marginRight={"2px"}
@@ -196,7 +196,7 @@ const Products = () => {
                     sm: "70px",
                   }}
                   objectFit="cover"
-                  src="/src/assests/p3.jpeg"
+                  src="/public/assests/p3.jpeg"
                   borderRadius={"10px"}
                   margin={"20px"}
                   marginRight={"2px"}
@@ -236,8 +236,7 @@ const Products = () => {
                     sm: "70px",
                   }}
                   objectFit="cover"
-                  src="/src/assests/p4.jpeg"
-                  borderRadius={"10px"}
+                  src="/public/assests/p4.jpeg"
                   margin={"20px"}
                   marginRight={"2px"}
                 />
@@ -274,3 +273,9 @@ const Products = () => {
 };
 
 export default Products;
+
+// https://ibb.co/2ZQTy2B
+// https://ibb.co/fXFX1yb
+// https://ibb.co/yB2TNjL
+// https://ibb.co/NmKjX5W
+// https://ibb.co/ZJpWr49
