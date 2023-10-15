@@ -24,7 +24,7 @@ import {
   MdOutlineCrisisAlert,
 } from "react-icons/md";
 import DashChartComponent from "./DashChartComponent";
-
+import Products from "./Products";
 const Dashboard = () => {
   return (
     <>
@@ -234,6 +234,7 @@ const Dashboard = () => {
         </Box>
         {/* Bar Chart Starts from here */}
         <DashChartComponent />
+        <Products />
       </Box>
     </>
   );
