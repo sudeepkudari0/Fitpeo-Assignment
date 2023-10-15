@@ -156,7 +156,7 @@ const Products = () => {
                     sm: "70px",
                   }}
                   objectFit="cover"
-                  src="/public/assests/p2.jpeg"
+                  src="/assests/p2.jpeg"
                   borderRadius={"10px"}
                   margin={"20px"}
                   marginRight={"2px"}
