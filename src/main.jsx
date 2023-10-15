@@ -20,7 +20,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Sidebar />
         <Routes>
           <Route path="/" element={<Dashboard />} />
-          <Route path="/productS" element={<Products />} />
+          <Route path="/products" element={<Products />} />
         </Routes>
       </Box>
     </Router>

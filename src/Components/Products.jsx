@@ -78,23 +78,39 @@ const Products = () => {
                 </MenuList>
               </Menu>
             </GridItem>
-            <GridItem colSpan={7} rowSpan={1} width={"100%"}>
-              <Text margin={"20px"} fontSize={{ base: "18px", md: "25px" }}>
+            <GridItem colSpan={7} rowSpan={1} width={"auto"}>
+              <Text
+                margin={"20px"}
+                marginLeft={{ base: "10px" }}
+                fontSize={{ base: "18px", md: "25px" }}
+              >
                 Product Name
               </Text>
             </GridItem>
             <GridItem colSpan={1} rowSpan={1} width={"100%"}>
-              <Text margin={"20px"} fontSize={{ base: "18px", md: "25px" }}>
+              <Text
+                margin={"20px"}
+                marginLeft={{ lg: "-80px", md: "-80px" }}
+                fontSize={{ base: "18px", md: "25px" }}
+              >
                 Stock
               </Text>
             </GridItem>
             <GridItem colSpan={1} rowSpan={1} width={"100%"}>
-              <Text margin={"20px"} fontSize={{ base: "18px", md: "25px" }}>
+              <Text
+                margin={"20px"}
+                marginLeft={{ lg: "-55px", md: "-55px" }}
+                fontSize={{ base: "18px", md: "25px" }}
+              >
                 Price
               </Text>
             </GridItem>
             <GridItem colSpan={1} rowSpan={1} width={"100%"}>
-              <Text margin={"20px"} fontSize={{ base: "18px", md: "25px" }}>
+              <Text
+                margin={"20px"}
+                marginLeft={{ lg: "-68px", md: "-68px" }}
+                fontSize={{ base: "18px", md: "25px" }}
+              >
                 Total Sales
               </Text>
             </GridItem>
@@ -116,7 +132,7 @@ const Products = () => {
                     sm: "70px",
                   }}
                   objectFit="cover"
-                  src="/public/assests/p1.jpeg"
+                  src="/assests/p1.jpeg"
                   borderRadius={"10px"}
                   margin={"20px"}
                   marginRight={"2px"}
@@ -132,20 +148,29 @@ const Products = () => {
               </HStack>
             </GridItem>
             <GridItem colSpan={1}>
-              <Text margin={"20px"} fontSize={{ base: "18px", md: "25px" }}>
-                100
+              <Text
+                margin={"20px"}
+                marginLeft={{ base: "-55px", md: "22px" }}
+                fontSize={{ base: "18px", md: "25px" }}
+              >
+                20
+              </Text>
+            </GridItem>
+            <GridItem colSpan={1}>
+              <Text
+                margin={"20px"}
+                marginLeft={{ base: "-20px", md: "22px" }}
+                fontSize={{ base: "18px", md: "25px" }}
+              >
+                32
               </Text>
             </GridItem>
             <GridItem colSpan={1}>
               <Text margin={"20px"} fontSize={{ base: "18px", md: "25px" }}>
-                100
+                3
               </Text>
             </GridItem>
-            <GridItem colSpan={1}>
-              <Text margin={"20px"} fontSize={{ base: "18px", md: "25px" }}>
-                100
-              </Text>
-            </GridItem>
+
             <GridItem colSpan={7} rowSpan={1} width={"100%"}>
               <HStack width={"auto"}>
                 <Image
@@ -156,47 +181,7 @@ const Products = () => {
                     sm: "70px",
                   }}
                   objectFit="cover"
-                  src="/assests/p2.jpeg"
-                  borderRadius={"10px"}
-                  margin={"20px"}
-                  marginRight={"2px"}
-                />
-                <VStack>
-                  <Heading fontSize={{ base: "1rem", md: "1.8rem" }}>
-                    Tree
-                  </Heading>
-                  <Text fontSize={{ base: "0.85rem", md: "1.5rem" }}>
-                    Straight
-                  </Text>
-                </VStack>
-              </HStack>
-            </GridItem>
-            <GridItem colSpan={1}>
-              <Text margin={"20px"} fontSize={{ base: "18px", md: "25px" }}>
-                16
-              </Text>
-            </GridItem>
-            <GridItem colSpan={1}>
-              <Text margin={"20px"} fontSize={{ base: "18px", md: "25px" }}>
-                35
-              </Text>
-            </GridItem>
-            <GridItem colSpan={1}>
-              <Text margin={"20px"} fontSize={{ base: "18px", md: "25px" }}>
-                100
-              </Text>
-            </GridItem>
-            <GridItem colSpan={7} rowSpan={1} width={"100%"}>
-              <HStack width={"auto"}>
-                <Image
-                  width={{
-                    base: "70px",
-                    md: "150px",
-                    lg: "170px",
-                    sm: "70px",
-                  }}
-                  objectFit="cover"
-                  src="/public/assests/p3.jpeg"
+                  src="/assests/p3.jpeg"
                   borderRadius={"10px"}
                   margin={"20px"}
                   marginRight={"2px"}
@@ -212,18 +197,26 @@ const Products = () => {
               </HStack>
             </GridItem>
             <GridItem colSpan={1}>
-              <Text margin={"20px"} fontSize={{ base: "18px", md: "25px" }}>
-                100
+              <Text
+                margin={"20px"}
+                marginLeft={{ base: "-50px", md: "22px" }}
+                fontSize={{ base: "18px", md: "25px" }}
+              >
+                6
+              </Text>
+            </GridItem>
+            <GridItem colSpan={1}>
+              <Text
+                margin={"20px"}
+                marginLeft={{ base: "-20px", md: "22px" }}
+                fontSize={{ base: "18px", md: "25px" }}
+              >
+                86
               </Text>
             </GridItem>
             <GridItem colSpan={1}>
               <Text margin={"20px"} fontSize={{ base: "18px", md: "25px" }}>
-                100
-              </Text>
-            </GridItem>
-            <GridItem colSpan={1}>
-              <Text margin={"20px"} fontSize={{ base: "18px", md: "25px" }}>
-                100
+                12
               </Text>
             </GridItem>
             <GridItem colSpan={7} rowSpan={1} width={"100%"}>
@@ -236,9 +229,10 @@ const Products = () => {
                     sm: "70px",
                   }}
                   objectFit="cover"
-                  src="/public/assests/p4.jpeg"
+                  src="/assests/p4.jpeg"
                   margin={"20px"}
                   marginRight={"2px"}
+                  borderRadius={"10px"}
                 />
                 <VStack>
                   <Heading fontSize={{ base: "1rem", md: "1.8rem" }}>
@@ -251,18 +245,122 @@ const Products = () => {
               </HStack>
             </GridItem>
             <GridItem colSpan={1}>
-              <Text margin={"20px"} fontSize={{ base: "18px", md: "25px" }}>
-                100
+              <Text
+                margin={"20px"}
+                marginLeft={{ base: "-50px", md: "22px" }}
+                fontSize={{ base: "18px", md: "25px" }}
+              >
+                23
+              </Text>
+            </GridItem>
+            <GridItem colSpan={1}>
+              <Text
+                margin={"20px"}
+                marginLeft={{ base: "-20px", md: "22px" }}
+                fontSize={{ base: "18px", md: "25px" }}
+              >
+                25
               </Text>
             </GridItem>
             <GridItem colSpan={1}>
               <Text margin={"20px"} fontSize={{ base: "18px", md: "25px" }}>
-                100
+                56
+              </Text>
+            </GridItem>
+            <GridItem colSpan={7} rowSpan={1} width={"100%"}>
+              <HStack width={"auto"}>
+                <Image
+                  width={{
+                    base: "70px",
+                    md: "150px",
+                    lg: "170px",
+                    sm: "70px",
+                  }}
+                  objectFit="cover"
+                  src="/assests/p5.jpeg"
+                  margin={"20px"}
+                  marginRight={"2px"}
+                  borderRadius={"10px"}
+                />
+                <VStack>
+                  <Heading fontSize={{ base: "1rem", md: "1.8rem" }}>
+                    Green Forest
+                  </Heading>
+                  <Text fontSize={{ base: "0.85rem", md: "1.5rem" }}>
+                    Fresh Air
+                  </Text>
+                </VStack>
+              </HStack>
+            </GridItem>
+            <GridItem colSpan={1}>
+              <Text
+                margin={"20px"}
+                marginLeft={{ base: "-50px", md: "22px" }}
+                fontSize={{ base: "18px", md: "25px" }}
+              >
+                5
+              </Text>
+            </GridItem>
+            <GridItem colSpan={1}>
+              <Text
+                margin={"20px"}
+                marginLeft={{ base: "-20px", md: "22px" }}
+                fontSize={{ base: "18px", md: "25px" }}
+              >
+                12
               </Text>
             </GridItem>
             <GridItem colSpan={1}>
               <Text margin={"20px"} fontSize={{ base: "18px", md: "25px" }}>
-                100
+                56
+              </Text>
+            </GridItem>
+            <GridItem colSpan={7} rowSpan={1} width={"100%"}>
+              <HStack width={"auto"}>
+                <Image
+                  width={{
+                    base: "70px",
+                    md: "150px",
+                    lg: "170px",
+                    sm: "70px",
+                  }}
+                  objectFit="cover"
+                  src="/assests/p6.jpeg"
+                  margin={"20px"}
+                  marginRight={"2px"}
+                  borderRadius={"10px"}
+                />
+                <VStack>
+                  <Heading fontSize={{ base: "1rem", md: "1.8rem" }}>
+                    Cosmos
+                  </Heading>
+                  <Text fontSize={{ base: "0.85rem", md: "1.5rem" }}>
+                    0 Gravity
+                  </Text>
+                </VStack>
+              </HStack>
+            </GridItem>
+            <GridItem colSpan={1}>
+              <Text
+                margin={"20px"}
+                marginLeft={{ base: "-50px", md: "22px" }}
+                fontSize={{ base: "18px", md: "25px" }}
+              >
+                9
+              </Text>
+            </GridItem>
+            <GridItem colSpan={1}>
+              <Text
+                margin={"20px"}
+                marginLeft={{ base: "-23px", md: "22px" }}
+                fontSize={{ base: "18px", md: "25px" }}
+              >
+                23
+              </Text>
+            </GridItem>
+            <GridItem colSpan={1}>
+              <Text margin={"20px"} fontSize={{ base: "18px", md: "25px" }}>
+                0
               </Text>
             </GridItem>
           </Grid>
@@ -273,9 +371,3 @@ const Products = () => {
 };
 
 export default Products;
-
-// https://ibb.co/2ZQTy2B
-// https://ibb.co/fXFX1yb
-// https://ibb.co/yB2TNjL
-// https://ibb.co/NmKjX5W
-// https://ibb.co/ZJpWr49

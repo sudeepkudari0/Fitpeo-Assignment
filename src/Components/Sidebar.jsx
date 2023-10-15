@@ -32,7 +32,7 @@ const Sidebar = () => {
     <div>
       <Box
         width={{ md: "100%", lg: "100%", sm: "100%" }}
-        height={{ md: "100vh", lg: "100vh", sm: "auto" }}
+        height={{ base: "650px", md: "150vh", lg: "15 0vh", sm: "auto" }}
         backgroundColor={"#291e57"}
         display={"flex"}
         flexDirection={"column"}
@@ -45,7 +45,7 @@ const Sidebar = () => {
             color="white"
           />
           <Heading
-            fontSize={{ base: "2rem", md: "20px", lg: "40px", sm: "60px" }}
+            fontSize={{ base: "2rem", md: "20px", lg: "50px", sm: "60px" }}
             padding={"10px"}
             textAlign={"center"}
             color={"white"}
@@ -54,7 +54,7 @@ const Sidebar = () => {
             Dashboard
           </Heading>
         </Box>
-        <Box>
+        <Box height={{ base: "180px", lg: "400px" }}>
           <List
             padding={"10px"}
             spacing={4}
@@ -66,15 +66,27 @@ const Sidebar = () => {
             <Link to="/" style={{ textDecoration: "none" }}>
               <Box display={"flex"} sx={listStyle}>
                 <Icon as={BiBriefcase} fontSize="1.6rem" color="white" />
-                <ListItem marginLeft={"10px"}>Dashboard</ListItem>
+                <ListItem
+                  marginLeft={"10px"}
+                  fontSize={"1.5rem"}
+                  fontWeight={"bold"}
+                >
+                  Dashboard
+                </ListItem>
               </Box>
             </Link>
             <Box display={"flex"} sx={listStyle}>
               <Icon as={BiCycling} fontSize="1.6rem" color="white" />
-              <Link to="/productS" style={{ textDecoration: "none" }}>
-                <ListItem marginLeft={"10px"}>Product</ListItem>
+              <Link to="/products" style={{ textDecoration: "none" }}>
+                <ListItem
+                  marginLeft={"10px"}
+                  fontSize={"1.5rem"}
+                  fontWeight={"bold"}
+                >
+                  Product
+                </ListItem>
               </Link>
-              <Link to="/productS" style={{ textDecoration: "none" }}>
+              <Link to="/products" style={{ textDecoration: "none" }}>
                 <Icon
                   as={IoIosArrowForward}
                   fontSize="1.5rem"
@@ -92,7 +104,13 @@ const Sidebar = () => {
             <Box display={"flex"} sx={listStyle}>
               <Icon as={AiOutlineUser} fontSize="1.6rem" color="white" />
               <Link to="/customers" style={{ textDecoration: "none" }}>
-                <ListItem marginLeft={"10px"}>Customers</ListItem>
+                <ListItem
+                  marginLeft={"10px"}
+                  fontSize={"1.5rem"}
+                  fontWeight={"bold"}
+                >
+                  Customers
+                </ListItem>
               </Link>
               <Link to="/customers" style={{ textDecoration: "none" }}>
                 <Icon
@@ -112,7 +130,13 @@ const Sidebar = () => {
             <Box display={"flex"} sx={listStyle}>
               <Icon as={BiMoneyWithdraw} fontSize="1.6rem" color="white" />
               <Link to="/income" style={{ textDecoration: "none" }}>
-                <ListItem marginLeft={"10px"}>Income</ListItem>
+                <ListItem
+                  marginLeft={"10px"}
+                  fontSize={"1.5rem"}
+                  fontWeight={"bold"}
+                >
+                  Income
+                </ListItem>
               </Link>
               <Link to="/income" style={{ textDecoration: "none" }}>
                 <Icon
@@ -132,7 +156,13 @@ const Sidebar = () => {
             <Box display={"flex"} sx={listStyle}>
               <Icon as={BiBadgeCheck} fontSize="1.6rem" color="white" />
               <Link to="/promote" style={{ textDecoration: "none" }}>
-                <ListItem marginLeft={"10px"}>Promote</ListItem>
+                <ListItem
+                  marginLeft={"10px"}
+                  fontSize={"1.5rem"}
+                  fontWeight={"bold"}
+                >
+                  Promote
+                </ListItem>
               </Link>
               <Link to="/promote" style={{ textDecoration: "none" }}>
                 <Icon
@@ -153,7 +183,13 @@ const Sidebar = () => {
             <Box display={"flex"} sx={listStyle}>
               <Icon as={BiHelpCircle} fontSize="1.6rem" color="white" />
               <Link to="/promote" style={{ textDecoration: "none" }}>
-                <ListItem marginLeft={"10px"}>Help</ListItem>
+                <ListItem
+                  marginLeft={"10px"}
+                  fontSize={"1.5rem"}
+                  fontWeight={"bold"}
+                >
+                  Help
+                </ListItem>
               </Link>
               <Link to="/promote" style={{ textDecoration: "none" }}>
                 <Icon
@@ -172,8 +208,10 @@ const Sidebar = () => {
             </Box>
           </List>
         </Box>
+        <Box height={{ md: "500px", lg: "500px" }}>
+          <User />
+        </Box>
       </Box>
-      {/* <User /> */}
     </div>
   );
 };

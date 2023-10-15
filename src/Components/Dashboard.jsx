@@ -40,9 +40,9 @@ const Dashboard = () => {
         >
           <Heading
             margin={{ base: "20px", md: "0px", lg: "40px", sm: "20px" }}
-            width={"200px"}
+            width={"250px"}
           >
-            Hi, Sudeep
+            Hi, Sudeep 👋
           </Heading>
           <InputGroup
             margin={{ base: "20px", md: "0px", lg: "40px", sm: "20px" }}
@@ -235,9 +235,8 @@ const Dashboard = () => {
         <DashChartComponent />
         <Box
           bgColor={"white"}
-          margin={"40px"}
-          marginLeft={"80px"}
-          padding={"20px"}
+          margin={"10px"}
+          marginLeft={{ lg: "80px" }}
           borderRadius={"10px"}
         >
           <Products />

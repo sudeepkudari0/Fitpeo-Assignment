@@ -17,8 +17,7 @@ const User = () => {
   };
   return (
     <div>
-      export default User
-      <Box display={"flex"} justifyContent={"center"}>
+      <Box display={"flex"} justifyContent={"center"} margin={{ base: "10px" }}>
         <HStack
           sx={listStyle2}
           width={{ base: "100%", md: "100%", lg: "100%", sm: "0%" }}
