@@ -42,7 +42,7 @@ Start the server
 
 ![App Screenshot](https://raw.github.com/sudeepkudari0/Fitpeo-Assignment/main/screenshots/fitpeo1.png)
 
-<img src="https://raw.github.com/sudeepkudari0/Fitpeo-Assignment/main/screenshots/fitpeo2.png" align="left" height="500" width="700" >
+<img src="https://raw.github.com/sudeepkudari0/Fitpeo-Assignment/main/screenshots/fitpeo2.png" align="left" height="800"  >
 <!-- ![App Screenshot|200x100](https://raw.github.com/sudeepkudari0/Fitpeo-Assignment/main/screenshots/fitpeo2.png) -->
 ## Future Enhancements
 
