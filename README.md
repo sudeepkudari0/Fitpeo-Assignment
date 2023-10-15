@@ -42,7 +42,8 @@ Start the server
 
 ![App Screenshot](https://raw.github.com/sudeepkudari0/Fitpeo-Assignment/main/screenshots/fitpeo1.png)
 
-![App Screenshot](https://raw.github.com/sudeepkudari0/Fitpeo-Assignment/main/screenshots/fitpeo2.png)
+
+![App Screenshot|200x100](https://raw.github.com/sudeepkudari0/Fitpeo-Assignment/main/screenshots/fitpeo2.png)
 ## Future Enhancements
 
 -> Merging my Crypto Dash project with this project  
