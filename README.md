@@ -1,7 +1,7 @@
 
 # Dashboard Application
 
-A Fitpeo Assignment, ReactJS-based dashboard web application using 
+ReactJS-based dashboard web application using 
 Chakra-UI.   
 -
 Bootstraped using npm create vite@latest.
